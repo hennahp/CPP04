@@ -10,7 +10,8 @@ RESET = \033[0m
 SRCS =	main.cpp \
 		Animal.cpp \
 		Dog.cpp \
-		Cat.cpp
+		Cat.cpp \
+		Brain.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
