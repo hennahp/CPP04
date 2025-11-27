@@ -10,7 +10,9 @@ RESET = \033[0m
 SRCS =	main.cpp \
 		AMateria.cpp \
 		Ice.cpp \
-		Cure.cpp 
+		Cure.cpp \
+		Character.cpp \
+		MateriaSource.cpp
 
 OBJS = $(SRCS:.cpp=.o)
 
