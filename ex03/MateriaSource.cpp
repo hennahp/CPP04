@@ -6,7 +6,7 @@
 /*   By: hparveen <hparveen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/27 10:22:03 by hparveen          #+#    #+#             */
-/*   Updated: 2025/11/27 10:44:33 by hparveen         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:49:03 by hparveen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,6 +69,7 @@ void MateriaSource::learnMateria(AMateria *m)
             return;
         }
     }
+    delete m;
 }
 
 AMateria* MateriaSource::createMateria(const std::string &type)

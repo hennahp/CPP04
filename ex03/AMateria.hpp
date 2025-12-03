@@ -6,7 +6,7 @@
 /*   By: hparveen <hparveen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/26 13:10:05 by hparveen          #+#    #+#             */
-/*   Updated: 2025/11/27 08:16:44 by hparveen         ###   ########.fr       */
+/*   Updated: 2025/12/03 08:18:25 by hparveen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,6 +40,6 @@ class AMateria
         std::string const &getType() const;
 
         virtual AMateria *clone() const = 0;
-        virtual void use(class ICharacter &target);
+        virtual void use(ICharacter &target);
 };
 #endif
