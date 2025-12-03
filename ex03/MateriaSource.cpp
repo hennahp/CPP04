@@ -6,7 +6,7 @@
 /*   By: hparveen <hparveen@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/27 10:22:03 by hparveen          #+#    #+#             */
-/*   Updated: 2025/12/03 08:49:03 by hparveen         ###   ########.fr       */
+/*   Updated: 2025/12/03 09:20:26 by hparveen         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,6 +61,8 @@ MateriaSource::~MateriaSource()
 
 void MateriaSource::learnMateria(AMateria *m)
 {
+    if(!m)
+        return;
     for(int i = 0; i < 4; i++)
     {
         if(!_materias[i])
